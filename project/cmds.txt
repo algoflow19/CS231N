@@ -1,0 +1,48 @@
+查看java和JDK版本：
+/usr/libexec/java_home -V
+
+(OK) Install the latest version of Bazel as per the instructions on the Bazel website.
+(OK)The Android NDK is required to build the native (C/C++) TensorFlow code. The current recommended version is 12b, which may be found here.
+(OK)The Android SDK and build tools may be obtained here, or alternatively as part of Android Studio. Build tools API >= 23 is required to build the TF Android demo (though it will run on API >= 21 devices).
+
+Android NDK 是在SDK前面又加上了“原生”二字，即Native Development Kit，因此又被Google称为“NDK”。
+
+Edit WORKSPACE
+- The Android entries in <workspace_root>/WORKSPACE must be uncommented with the paths filled in appropriately depending on where you installed the NDK and SDK.
+- Also edit the API levels for the SDK in WORKSPACE.
+
+
+Android SDK Location:
+/Users/zhangrao/Library/Android/sdk
+
+Android NDK Location:
+/Users/zhangrao/Library/Android/android-ndk-r12b
+
+==== modify tensorflow configuration: file location and api_version
+api_level = 25,
+build_tools_version = "25.0.3",
+path = "/Users/zhangrao/Library/Android/sdk",
+
+
+path="/Users/zhangrao/Library/Android/android-ndk-r12b",
+# This needs to be 14 or higher to compile TensorFlow. 
+# Note that the NDK version is not the API level.
+api_level=14
+
+x86 means that 32bit and 64bit computers can run it, and x86_64 means that 64bit computers alone can run it.
+
+==== run app on the Android Emulator ====
+(1) rebuild the tensorflow libraray with x 86 architecture
+bazel build -c opt //tensorflow/contrib/android:libtensorflow_inference.so \
+   --crosstool_top=//external:android/crosstool \
+   --host_crosstool_top=@bazel_tools//tools/cpp:toolchain \
+   --cpu=x86
+
+(2) change the cpuType in build.gradle to 'x86'
+
+
+==== open webcam on Mac
+Android Studio: Tools->Android->AVD Manager->pencil->Advanced 
+
+
+
