@@ -4,19 +4,19 @@
 ### Course Assignments
 
 __Generative Adversal Network__
-<img src="pic/gan.png" width="1000" alt="gan"/>
+<img src="pic/gan.png" width="800" alt="gan"/>
 
 __Style Transer__
-<img src="pic/style_transfer.png" width="1000" alt="style transfer"/>
+<img src="pic/style_transfer.png" width="800" alt="style transfer"/>
 
 __Optimizers__
-<img src="pic/optimizer.png" width="1000" alt="optimizer"/>
+<img src="pic/optimizer.png" width="800" alt="optimizer"/>
 
 __Salient Maps__
-<img src="pic/salient_maps.png" width="1000" alt="salient maps"/>
+<img src="pic/salient_maps.png" width="800" alt="salient maps"/>
 
 __Feature Etraction__
-<img src="pic/feature_extract.png" width="1000" alt="feature extract"/>
+<img src="pic/feature_extract.png" width="800" alt="feature extract"/>
 
 ### Final Project
 - Report: [__PDF__](project/report/Android_SqueezeDet.pdf)
