@@ -15,7 +15,7 @@ __Optimizers__
 __Salient Maps__
 <img src="pic/salient_maps.png" width="800" alt="salient maps"/>
 
-__Feature Etraction__
+__Feature Extraction__
 <img src="pic/feature_extract.png" width="800" alt="feature extract"/>
 
 ### Final Project
