@@ -16,10 +16,10 @@ __Salient Maps__
 <img src="pic/salient_maps.png" width="800" alt="salient maps"/>
 
 __Feature Extraction__
-<img src="pic/feature_extract.png" width="800" alt="feature extract"/>
+<img src="pic/feature_extract.png" width="500" alt="feature extract"/>
 
 __Learning Rate__
-<img src="pic/lr.png" width="800" alt="learning rate"/>
+<img src="pic/lr.png" width="500" alt="learning rate"/>
 
 ### Final Project
 - Report: [__PDF__](project/report/Android_SqueezeDet.pdf)
