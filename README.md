@@ -4,21 +4,27 @@
 ### Course Assignments
 
 __Generative Adversal Network__
+
 <img src="pic/gan.png" width="800" alt="gan"/>
 
 __Style Transer__
+
 <img src="pic/style_transfer.png" width="800" alt="style transfer"/>
 
 __Optimizers__
+
 <img src="pic/optimizer.png" width="800" alt="optimizer"/>
 
 __Salient Maps__
+
 <img src="pic/salient_maps.png" width="800" alt="salient maps"/>
 
 __Feature Extraction__
+
 <img src="pic/feature_extract.png" width="500" alt="feature extract"/>
 
 __Learning Rate__
+
 <img src="pic/lr.png" width="500" alt="learning rate"/>
 
 ### Final Project
